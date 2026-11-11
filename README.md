@@ -53,7 +53,13 @@ Install for the current project with [Skills CLI](https://github.com/vercel-labs
 npx skills add medtarektazarki-dev/regraph-kinetic-lab --skill regraph-kinetic-lab
 ```
 
-For Antigravity, the project-local location is `.agents/skills/regraph-kinetic-lab/`. Other agents may use their own supported skill directory. If the skill is not picked up, refresh the agent or open `SKILL.md` directly.
+For Antigravity, install directly with:
+
+```sh
+npx skills add medtarektazarki-dev/regraph-kinetic-lab --skill regraph-kinetic-lab --agent antigravity
+```
+
+The project-local location is `.agents/skills/regraph-kinetic-lab/`. Claude Code is also supported with `--agent claude-code`. Other agents may use their own supported skill directory. If the skill is not picked up, refresh the agent or open `SKILL.md` directly.
 
 ## Try it
 
@@ -78,9 +84,21 @@ Turn this brief into a detailed production prompt for another video agent. Keep 
 
 The helper scripts are optional. FFmpeg and FFprobe are only needed for automated frame extraction and technical video checks; manual review fallbacks are included.
 
+## FAQ
+
+**Does this require Remotion?** No. The skill inspects the existing project and follows its current video stack. Remotion guidance is used when the project already uses Remotion.
+
+**Does it require browser access?** Only for live reference research. If browsing is unavailable, it can use a reference supplied by you or proceed from your written direction.
+
+**Will it automatically render or publish?** Rendering depends on the tools available and the requested deliverable. Publishing is never implied by installing the skill.
+
+**Does it copy the reference video?** No. It studies design principles such as pacing, hierarchy, and transition logic, then adapts them into an original direction for your brand.
+
+**Can I use it for client work?** Yes. The skill and its source materials are MIT-licensed. Showcase GIFs and images are excluded from that license; see [LICENSE](LICENSE).
+
 ## Make it better with us
 
-Try it on a real idea. If it helps, **star the repo** and share a short note or a link to what you made. Feedback, issue reports, and contributions help us improve it for every creator.
+Try it on a real idea. If it helps, **star the repo** and share a short note or a link to what you made. Feedback, issue reports, and contributions help us improve it for every creator. For custom motion work, visit [Regraph Studio](https://regraphstudios.com).
 
 - [Star Regraph Kinetic Lab](https://github.com/medtarektazarki-dev/regraph-kinetic-lab/stargazers)
 - [Share feedback or report an issue](https://github.com/medtarektazarki-dev/regraph-kinetic-lab/issues)
@@ -88,4 +106,4 @@ Try it on a real idea. If it helps, **star the repo** and share a short note or 
 
 ## License
 
-No license is included yet. The repository is public, but that alone does not grant permission to reuse or redistribute its contents. Choose the intended license before advertising it as open source.
+The skill, documentation, scripts, and text templates are available under the [MIT License](LICENSE). The showcase GIFs and images are excluded and remain with their respective rights holders; do not reuse them without permission.
