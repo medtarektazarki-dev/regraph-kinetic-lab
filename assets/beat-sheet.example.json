@@ -1,0 +1,33 @@
+{
+  "fps": 30,
+  "duration_frames": 300,
+  "beats": [
+    {
+      "name": "Hook",
+      "start_frame": 0,
+      "end_frame": 48,
+      "purpose": "Establish the central promise",
+      "copy": "YOUR OPENING LINE",
+      "motion": "A restrained, frame-driven reveal",
+      "transition": "The headline's underline expands into the next scene"
+    },
+    {
+      "name": "Proof",
+      "start_frame": 48,
+      "end_frame": 210,
+      "purpose": "Show real work that supports the promise",
+      "copy": "",
+      "motion": "Two portfolio moments with distinct timing and a clear visual hierarchy",
+      "transition": "The final image shape resolves into the brand mark"
+    },
+    {
+      "name": "Resolve",
+      "start_frame": 210,
+      "end_frame": 300,
+      "purpose": "Leave a clear brand signature",
+      "copy": "BRAND / TAGLINE",
+      "motion": "Logo reveals and settles into a readable end card",
+      "transition": "Hold cleanly through the final frame"
+    }
+  ]
+}
