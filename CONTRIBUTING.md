@@ -14,5 +14,5 @@ Thanks for helping make Regraph Kinetic Lab more useful to motion designers and 
 - Keep examples original. Describe reference craft without reproducing a creator's exact sequence, copy, visuals, or music.
 - Keep showcase media rights separate from the MIT-licensed skill and documentation.
 - Update README instructions when the install path or supported workflow changes.
-- Validate the sample beat sheet with `python scripts/beat_sheet.py assets/beat-sheet.example.json`.
-- If you change skill packaging, verify that a project-local install retains `SKILL.md`, `references/`, `assets/`, and `scripts/`.
+- Validate the sample beat sheet with `python skills/regraph-kinetic-lab/scripts/beat_sheet.py skills/regraph-kinetic-lab/assets/beat-sheet.example.json`.
+- If you change skill packaging, verify that a project-local install retains the skill's `SKILL.md`, `references/`, templates, and scripts without copying `docs/media/` into the installed skill.

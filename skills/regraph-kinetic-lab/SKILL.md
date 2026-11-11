@@ -58,6 +58,7 @@ When unclear, prefer the full build if the project can render. Ask only for info
 - Extract brand, audience, single message, visual direction, purpose, destination, duration, aspect ratio, frame rate, on-screen language, audio wishes, and available assets.
 - Inspect a supplied brand website, then local guidelines, assets, styles, fonts, copy, and current project state. Do not invent brand facts.
 - Identify available tools with a harmless capability check. For fallbacks, read [references/agent-compatibility.md](references/agent-compatibility.md).
+- Resolve bundled reference, template, and script paths relative to this `SKILL.md`, not the user's project root. Use the installed skill directory when invoking a helper script.
 - Keep the current stack and conventions. When a relevant stack-specific skill is available, read it and follow it for implementation details.
 - Use [references/brief-intake.md](references/brief-intake.md) when the brief is incomplete.
 
@@ -82,7 +83,7 @@ Then identify three to five useful principles, what should change to fit the use
 - Write a beat sheet with each scene's purpose, copy, motion, duration, and transition. Prefer transitions that grow from the preceding scene.
 - Respect reading time, platform safe areas, frame-exact timing, and the user's requested style. Do not force a fixed number of scenes or one visual aesthetic.
 - Show a concise direction and beat outline while work proceeds. Wait for approval only when the user requested a checkpoint or a consequential decision cannot be inferred.
-- Use [references/storyboard-timing.md](references/storyboard-timing.md) and `assets/beat-sheet.example.json`. Validate a JSON beat sheet with `python scripts/beat_sheet.py <beats.json>`.
+- Use [references/storyboard-timing.md](references/storyboard-timing.md) and `assets/beat-sheet.example.json`. Validate a JSON beat sheet with `python <skill-dir>/scripts/beat_sheet.py <beats.json>`.
 - For storyboard-only requests, deliver the storyboard template and stop. For prompt requests, continue to [references/prompt-package.md](references/prompt-package.md).
 
 ### 5. Build
@@ -99,7 +100,7 @@ Then identify three to five useful principles, what should change to fit the use
 
 - Inspect actual frames or the video at scene entries, resting states, transitions, important copy, and the ending. Check full playback at normal speed.
 - Review readability, hierarchy, framing, safe areas, timing, transitions, assets, fonts, text shaping, and audio sync. Use [references/qa-review.md](references/qa-review.md).
-- When FFmpeg is available, `python scripts/review_frames.py <video> --beats <beats.json> --out <dir>` extracts scene review frames, and `python scripts/probe_video.py <video> --expect-size WxH --expect-fps N --expect-duration S` checks technical properties.
+- When FFmpeg is available, `python <skill-dir>/scripts/review_frames.py <video> --beats <beats.json> --out <dir>` extracts scene review frames, and `python <skill-dir>/scripts/probe_video.py <video> --expect-size WxH --expect-fps N --expect-duration S` checks technical properties.
 - Fix visible problems and recheck affected frames. Stop after three review passes and report remaining issues.
 - A successful build or source-code review is not visual verification. If image viewing is unavailable, say that no visual pass occurred and provide available evidence.
 - Render the requested deliverable when supported. Do not render when the user asked for planning, preview-only, or code-only. Never publish or upload without explicit authorization.

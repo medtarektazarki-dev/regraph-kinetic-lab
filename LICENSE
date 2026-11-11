@@ -2,7 +2,7 @@ MIT License
 
 Copyright (c) 2026 Regraph Studio
 
-Scope: This license applies to the skill instructions, documentation, scripts, and text templates in this repository. It does not apply to the showcase media assets in `assets/regraph-loop.gif`, `assets/renote-demo.gif`, or `assets/showcase/`; those remain with their respective rights holders.
+Scope: This license applies to the skill instructions, documentation, scripts, and text templates in this repository. It does not apply to showcase media under `docs/media/`; those files remain with their respective rights holders.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

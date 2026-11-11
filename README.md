@@ -12,8 +12,8 @@ Made by [Regraph Studio](https://regraphstudios.com) for creators, founders, and
     <th>ReNote product promo · 15 sec</th>
   </tr>
   <tr>
-    <td><img src="assets/regraph-loop.gif" width="330" alt="Animated Regraph Studio brand and motion-design loop" /></td>
-    <td><img src="assets/renote-demo.gif" width="330" alt="Animated ReNote product-promo video with kinetic typography and app screens" /></td>
+    <td><img src="docs/media/regraph-loop.gif" width="330" alt="Animated Regraph Studio brand and motion-design loop" /></td>
+    <td><img src="docs/media/renote-demo.gif" width="330" alt="Animated ReNote product-promo video with kinetic typography and app screens" /></td>
   </tr>
 </table>
 
@@ -22,10 +22,10 @@ Made by [Regraph Studio](https://regraphstudios.com) for creators, founders, and
 ### Frames from the loop
 
 <p align="center">
-  <img src="assets/showcase/01-regraph-brand.jpg" width="180" alt="Regraph Studio brand reveal and motion-art direction" />
-  <img src="assets/showcase/02-typography-motion.jpg" width="180" alt="Typography system and kinetic type direction" />
-  <img src="assets/showcase/03-product-motion.jpg" width="180" alt="Merchandise product showcase with layered motion" />
-  <img src="assets/showcase/04-campaign-detail.jpg" width="180" alt="Campaign close-up with product and editorial framing" />
+  <img src="docs/media/showcase/01-regraph-brand.jpg" width="180" alt="Regraph Studio brand reveal and motion-art direction" />
+  <img src="docs/media/showcase/02-typography-motion.jpg" width="180" alt="Typography system and kinetic type direction" />
+  <img src="docs/media/showcase/03-product-motion.jpg" width="180" alt="Merchandise product showcase with layered motion" />
+  <img src="docs/media/showcase/04-campaign-detail.jpg" width="180" alt="Campaign close-up with product and editorial framing" />
 </p>
 
 ## What it helps you make
@@ -59,7 +59,7 @@ For Antigravity, install directly with:
 npx skills add medtarektazarki-dev/regraph-kinetic-lab --skill regraph-kinetic-lab --agent antigravity
 ```
 
-The project-local location is `.agents/skills/regraph-kinetic-lab/`. Claude Code is also supported with `--agent claude-code`. Other agents may use their own supported skill directory. If the skill is not picked up, refresh the agent or open `SKILL.md` directly.
+The project-local location is `.agents/skills/regraph-kinetic-lab/`. Claude Code is also supported with `--agent claude-code`. Other agents may use their own supported skill directory. If the skill is not picked up, refresh the agent or open `skills/regraph-kinetic-lab/SKILL.md` directly.
 
 ## Try it
 
@@ -75,12 +75,19 @@ Analyze this reference and create an original Arabic kinetic-typography storyboa
 Turn this brief into a detailed production prompt for another video agent. Keep it brand-aware and include timing, typography, transitions, and delivery specs.
 ```
 
+Explore the [example beat sheet](skills/regraph-kinetic-lab/assets/beat-sheet.example.json). Validate it locally with:
+
+```sh
+python skills/regraph-kinetic-lab/scripts/beat_sheet.py skills/regraph-kinetic-lab/assets/beat-sheet.example.json
+```
+
 ## What's inside
 
-- `SKILL.md` — the main motion-director workflow and activation guidance.
-- `references/` — on-demand playbooks for reference research, typography, motion craft, storyboards, audio, delivery, and review.
-- `assets/` — brief, storyboard, beat-sheet, and delivery-report templates.
-- `scripts/` — beat timing validation and optional FFmpeg/FFprobe review helpers.
+- `skills/regraph-kinetic-lab/SKILL.md` — the main motion-director workflow and activation guidance.
+- `skills/regraph-kinetic-lab/references/` — on-demand playbooks for reference research, typography, motion craft, storyboards, audio, delivery, and review.
+- `skills/regraph-kinetic-lab/assets/` — brief, storyboard, beat-sheet, and delivery-report templates.
+- `skills/regraph-kinetic-lab/scripts/` — beat timing validation and optional FFmpeg/FFprobe review helpers.
+- `docs/media/` — README GIFs and showcase stills; excluded from skill installs.
 
 The helper scripts are optional. FFmpeg and FFprobe are only needed for automated frame extraction and technical video checks; manual review fallbacks are included.
 
@@ -106,4 +113,4 @@ Try it on a real idea. If it helps, **star the repo** and share a short note or 
 
 ## License
 
-The skill, documentation, scripts, and text templates are available under the [MIT License](LICENSE). The showcase GIFs and images are excluded and remain with their respective rights holders; do not reuse them without permission.
+The skill, documentation, scripts, and text templates are available under the [MIT License](LICENSE). The showcase GIFs and images under `docs/media/` are excluded and remain with their respective rights holders; do not reuse them without permission.
