@@ -38,18 +38,18 @@ You can stop at any stage: ask for reference analysis, a storyboard, a prompt ha
 Install for the current project with [Skills CLI](https://github.com/vercel-labs/skills):
 
 ```sh
-npx skills add medtarektazarki-dev/regraph-kinetic-lab --skill regraph-kinetic-lab
+npx skills add medtarektazarki-dev/regraph-kinetic-lab@v2.2.0 --skill regraph-kinetic-lab
 ```
 
 For Antigravity, install directly with:
 
 ```sh
-npx skills add medtarektazarki-dev/regraph-kinetic-lab --skill regraph-kinetic-lab --agent antigravity
+npx skills add medtarektazarki-dev/regraph-kinetic-lab@v2.2.0 --skill regraph-kinetic-lab --agent antigravity
 ```
 
 The project-local location is `.agents/skills/regraph-kinetic-lab/`. Claude Code is also supported with `--agent claude-code`. Other agents may use their own supported skill directory. If the skill is not picked up, refresh the agent or open `skills/regraph-kinetic-lab/SKILL.md` directly.
 
-**Verified install:** Skills CLI 1.8.1 installed all 19 skill files project-locally for Antigravity and Claude Code. The showcase GIF stays outside the installed skill.
+**Verified install:** Skills CLI 1.8.1 installed all 19 skill files project-locally for Antigravity and Claude Code. The pinned `v2.2.0` install also passed for Antigravity. The showcase media stays outside the installed skill.
 
 ## Try it
 
