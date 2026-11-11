@@ -4,6 +4,12 @@ A portable Agent Skill for turning a visual brief or Prompt Motion reference int
 
 The skill guides an agent's workflow; it does not add tools or permissions. Browsing, project editing, video rendering, and publishing depend on the agent and environment where it is installed.
 
+![Illustrative motion-design directions: kinetic typography, product film, 3D motion, and software UI animation](assets/motion-video-showcase.png)
+
+*Illustrative AI-generated concept art showing the kinds of visual directions this skill can help plan. These are not rendered outputs or client work produced by the skill.*
+
+The examples represent four possible directions: kinetic typography, product promotion, 3D object motion, and animated software interfaces. The skill can also plan footage-based edits, explainers, social videos, and multilingual or right-to-left layouts.
+
 ## What it does
 
 - Finds a relevant example in [Prompt Motion](https://prompt-motion.com/?type=prompt), or analyzes a user-supplied reference.
