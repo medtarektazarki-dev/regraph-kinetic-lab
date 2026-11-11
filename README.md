@@ -102,6 +102,10 @@ Try it on a real idea. If it helps, **star the repo** and share a short note or 
 - [Share feedback or report an issue](https://github.com/medtarektazarki-dev/regraph-kinetic-lab/issues)
 - [Visit Regraph Studio](https://regraphstudios.com)
 
+## Need a finished video?
+
+Regraph Kinetic Lab is free and MIT-licensed. If you want a studio to handle the creative direction and production, see [Regraph Studio services](docs/WORK-WITH-REGRAPH-STUDIO.md) or [start a conversation](https://regraphstudios.com). Paid work is separately scoped and quoted; buying a service is never required to use the skill.
+
 ## License
 
 The skill, documentation, scripts, and text templates are available under the [MIT License](LICENSE). Showcase GIFs and images are excluded; see the [media notice](docs/media/README.md).
