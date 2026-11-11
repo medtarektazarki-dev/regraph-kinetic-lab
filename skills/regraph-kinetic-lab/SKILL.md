@@ -2,7 +2,7 @@
 name: regraph-kinetic-lab
 description: Turn a brand brief or visual reference into an original motion video. Use for promos, product videos, showreels, kinetic typography, title sequences, storyboards, reference analysis, or prompt handoffs. Research Prompt Motion when available, adapt the craft to any brand and existing production stack, and support multilingual and right-to-left copy.
 metadata:
-  version: "2.1.0"
+  version: "2.2.0"
 ---
 
 # Regraph Kinetic Lab

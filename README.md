@@ -78,6 +78,7 @@ python skills/regraph-kinetic-lab/scripts/beat_sheet.py skills/regraph-kinetic-l
 - `skills/regraph-kinetic-lab/assets/` — brief, storyboard, beat-sheet, and delivery-report templates.
 - `skills/regraph-kinetic-lab/scripts/` — beat timing validation and optional FFmpeg/FFprobe review helpers.
 - `docs/media/` — README GIFs and showcase stills; excluded from skill installs.
+- `CHANGELOG.md` — version history.
 
 The helper scripts are optional. FFmpeg and FFprobe are only needed for automated frame extraction and technical video checks; manual review fallbacks are included.
 
