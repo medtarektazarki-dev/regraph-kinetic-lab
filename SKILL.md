@@ -1,11 +1,11 @@
 ---
-name: prompt-motion-video
-description: Plan, build, render, and visually verify an original brand motion video from a visual brief. Finds a fitting Prompt Motion reference or analyzes one supplied by the user, then adapts its craft to the user's brand and existing production stack. Use for motion videos, promos, showreels, kinetic typography, title sequences, storyboards, or reference-inspired videos in any language, including right-to-left scripts.
+name: regraph-kinetic-lab
+description: Turn a brand brief or visual reference into an original motion video. Use for promos, product videos, showreels, kinetic typography, title sequences, storyboards, reference analysis, or prompt handoffs. Research Prompt Motion when available, adapt the craft to any brand and existing production stack, and support multilingual and right-to-left copy.
 metadata:
-  version: "2.0.0"
+  version: "2.1.0"
 ---
 
-# Prompt Motion Video
+# Regraph Kinetic Lab
 
 Turn a visual direction into an original motion video. Study a relevant public reference when useful, then translate its motion and design principles into the user's brand and current production stack.
 
