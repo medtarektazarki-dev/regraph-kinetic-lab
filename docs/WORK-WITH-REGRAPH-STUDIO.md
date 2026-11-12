@@ -2,9 +2,9 @@
 
 Need a motion piece for a real brand or product? Regraph Studio can help shape the direction, build the video, and prepare versions for the platforms where your audience will see it.
 
-**Start a conversation:** [regraphstudios.com](https://regraphstudios.com)
+**Start a project:** [Email Regraph Studio](mailto:Tarektazarki@outlook.com?subject=Motion%20project%20inquiry%20%E2%80%94%20Regraph%20Kinetic%20Lab) · [Visit the contact section](https://regraphstudios.com/#contact)
 
-Share your brief, deadline, target platforms, available assets, and an approximate budget. We will confirm fit, scope, timeline, and a written quote before any paid work begins.
+The studio site routes project inquiries to Tarek's email. Include your brief, deadline, target platforms, available assets, and an approximate budget. Regraph Studio will confirm fit, scope, timeline, and a written quote before any paid work begins.
 
 ## Services
 
@@ -43,7 +43,7 @@ Unless the proposal says otherwise, third-party assets, paid stock, voice talent
 
 ## Project inquiry template
 
-Copy this into the contact form or message on [regraphstudios.com](https://regraphstudios.com):
+Copy this into your email to [Tarek at Regraph Studio](mailto:Tarektazarki@outlook.com?subject=Motion%20project%20inquiry%20%E2%80%94%20Regraph%20Kinetic%20Lab):
 
 ```text
 Project type:
